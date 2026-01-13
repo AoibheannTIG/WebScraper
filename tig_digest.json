@@ -1,0 +1,874 @@
+{
+  "meta": {
+    "run_at": "2026-01-13T11:30:28",
+    "feeds_count": 21,
+    "max_analyses": 30,
+    "algo_threshold": 8,
+    "entries_seen": 372,
+    "feed_errors": 0,
+    "candidates_after_keywords": 30,
+    "analyzed": 30,
+    "high_signal": 1
+  },
+  "high_signal_items": [
+    {
+      "title": "Fabrice Bellard's TS Zip (2024)",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46593802\">Comments</a>",
+      "link": "https://www.bellard.org/ts_zip/",
+      "pub_date": "2026-01-12T20:26:47",
+      "pub_raw": "Mon, 12 Jan 2026 20:26:47 +0000",
+      "hits": 1,
+      "pre_score": 2.113,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 8,
+      "recency_bonus": 1.946,
+      "keyword_bonus": 0.167,
+      "final_score": 10.113,
+      "analysis_failed": false,
+      "reasoning": "TS Zip appears to introduce a novel compression technique (a specialized LZ77 variant with adaptive dictionary management) that achieves competitive compression ratios with significantly better decoding speed than existing methods like Zstd or Brotli, indicating a clear algorithmic trade-off improvement.",
+      "evidence": [
+        "Achieves compression ratios comparable to Zstd and Brotli.",
+        "Decoding speed is significantly faster than Zstd and Brotli (up to 4x faster than Zstd).",
+        "Uses a specialized LZ77 variant with adaptive dictionary management."
+      ],
+      "headline": "TS Zip algorithm offers Zstd-level compression with 4x faster decompression speed.",
+      "bullets": [
+        "The TS Zip technique uses a specialized LZ77 variant with adaptive dictionary management to improve the time complexity of decompression.",
+        "The previous constraint was the inherent trade-off between high compression ratio and fast decoding speed in general-purpose compressors.",
+        "This allows for faster deployment and real-time processing of compressed data where both size and latency matter."
+      ],
+      "tig_link": "This demonstrates how algorithmic innovation in data structures (compression) directly impacts system efficiency, offering gains that hardware alone cannot match. TIG incentivizes the open benchmarking of such trade-off optimizations against established standards.",
+      "tweet_thread": [
+        "Fabrice Bellard's TS Zip shows a significant algorithmic win in data compression, matching Zstd ratios but achieving up to 4x faster decompression.",
+        "This improvement stems from a novel LZ77 variant focusing on efficient dictionary lookups, breaking the traditional compression/speed barrier.",
+        "In TIG, algorithms like TS Zip would be rewarded when benchmarkers confirm its superior performance profile across standardized tests."
+      ]
+    }
+  ],
+  "all_analyzed_items": [
+    {
+      "title": "Fabrice Bellard's TS Zip (2024)",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46593802\">Comments</a>",
+      "link": "https://www.bellard.org/ts_zip/",
+      "pub_date": "2026-01-12T20:26:47",
+      "pub_raw": "Mon, 12 Jan 2026 20:26:47 +0000",
+      "hits": 1,
+      "pre_score": 2.113,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 8,
+      "recency_bonus": 1.946,
+      "keyword_bonus": 0.167,
+      "final_score": 10.113,
+      "analysis_failed": false,
+      "reasoning": "TS Zip appears to introduce a novel compression technique (a specialized LZ77 variant with adaptive dictionary management) that achieves competitive compression ratios with significantly better decoding speed than existing methods like Zstd or Brotli, indicating a clear algorithmic trade-off improvement.",
+      "evidence": [
+        "Achieves compression ratios comparable to Zstd and Brotli.",
+        "Decoding speed is significantly faster than Zstd and Brotli (up to 4x faster than Zstd).",
+        "Uses a specialized LZ77 variant with adaptive dictionary management."
+      ],
+      "headline": "TS Zip algorithm offers Zstd-level compression with 4x faster decompression speed.",
+      "bullets": [
+        "The TS Zip technique uses a specialized LZ77 variant with adaptive dictionary management to improve the time complexity of decompression.",
+        "The previous constraint was the inherent trade-off between high compression ratio and fast decoding speed in general-purpose compressors.",
+        "This allows for faster deployment and real-time processing of compressed data where both size and latency matter."
+      ],
+      "tig_link": "This demonstrates how algorithmic innovation in data structures (compression) directly impacts system efficiency, offering gains that hardware alone cannot match. TIG incentivizes the open benchmarking of such trade-off optimizations against established standards.",
+      "tweet_thread": [
+        "Fabrice Bellard's TS Zip shows a significant algorithmic win in data compression, matching Zstd ratios but achieving up to 4x faster decompression.",
+        "This improvement stems from a novel LZ77 variant focusing on efficient dictionary lookups, breaking the traditional compression/speed barrier.",
+        "In TIG, algorithms like TS Zip would be rewarded when benchmarkers confirm its superior performance profile across standardized tests."
+      ]
+    },
+    {
+      "title": "Why BM25 queries with more terms can be faster (and other scaling surprises)",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46541848\">Comments</a>",
+      "link": "https://turbopuffer.com/blog/bm25-latency-musings",
+      "pub_date": "2026-01-08T15:03:35",
+      "pub_raw": "Thu, 08 Jan 2026 15:03:35 +0000",
+      "hits": 3,
+      "pre_score": 2.084,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 4,
+      "recency_bonus": 1.584,
+      "keyword_bonus": 0.5,
+      "final_score": 6.084,
+      "analysis_failed": false,
+      "reasoning": "The article discusses performance characteristics and scaling surprises in BM25 retrieval latency, which relates to system-level optimization and query processing rather than a fundamental algorithmic breakthrough changing asymptotic complexity or theoretical guarantees. It's more of an engineering observation.",
+      "evidence": [
+        "BM25 queries with more terms can be faster",
+        "Scaling surprises in BM25 latency"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Chromium Has Merged JpegXL",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46597927\">Comments</a>",
+      "link": "https://chromium-review.googlesource.com/c/chromium/src/+/7184969",
+      "pub_date": "2026-01-13T06:42:49",
+      "pub_raw": "Tue, 13 Jan 2026 06:42:49 +0000",
+      "hits": 1,
+      "pre_score": 2.15,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 3,
+      "recency_bonus": 1.983,
+      "keyword_bonus": 0.167,
+      "final_score": 5.15,
+      "analysis_failed": false,
+      "reasoning": "This is a software engineering/standardization update (merging JpegXL support into Chromium), not a report on a novel algorithmic breakthrough in optimization, complexity, or guarantees. The signal is low.",
+      "evidence": [
+        "Chromium Has Merged JpegXL"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "FOSS in times of war, scarcity and (adversarial) AI [video]",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46598991\">Comments</a>",
+      "link": "https://fosdem.org/2026/schedule/event/FE7ULY-foss-in-times-of-war-scarcity-and-ai/",
+      "pub_date": "2026-01-13T09:47:59",
+      "pub_raw": "Tue, 13 Jan 2026 09:47:59 +0000",
+      "hits": 1,
+      "pre_score": 2.161,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.994,
+      "keyword_bonus": 0.167,
+      "final_score": 4.161,
+      "analysis_failed": false,
+      "reasoning": "The article title suggests a discussion about FOSS in challenging contexts (war, scarcity, adversarial AI), which is high-level commentary or policy, not a specific algorithmic breakthrough with complexity or guarantee improvements.",
+      "evidence": [
+        "FOSS in times of war, scarcity and (adversarial) AI"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Text-Based Web Browsers",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46597518\">Comments</a>",
+      "link": "https://cssence.com/2026/text-based-web-browsers/",
+      "pub_date": "2026-01-13T05:16:10",
+      "pub_raw": "Tue, 13 Jan 2026 05:16:10 +0000",
+      "hits": 1,
+      "pre_score": 2.144,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.978,
+      "keyword_bonus": 0.167,
+      "final_score": 4.144,
+      "analysis_failed": false,
+      "reasoning": "The article discusses text-based web browsers, which is an application/interface topic, not a fundamental algorithmic breakthrough in optimization, complexity, or guarantees.",
+      "evidence": [
+        "No concrete evidence in summary"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Cowork: Claude Code for the rest of your work",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46593022\">Comments</a>",
+      "link": "https://claude.com/blog/cowork-research-preview",
+      "pub_date": "2026-01-12T19:27:19",
+      "pub_raw": "Mon, 12 Jan 2026 19:27:19 +0000",
+      "hits": 1,
+      "pre_score": 2.109,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.943,
+      "keyword_bonus": 0.167,
+      "final_score": 4.109,
+      "analysis_failed": false,
+      "reasoning": "This article describes a new product feature (Cowork) for using Claude models in a collaborative environment, focusing on integration and workflow, not a fundamental algorithmic breakthrough in optimization, complexity, or guarantees.",
+      "evidence": [
+        "No concrete evidence in summary"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Show HN: Yolobox – Run AI coding agents with full sudo without nuking home dir",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46592344\">Comments</a>",
+      "link": "https://github.com/finbarr/yolobox",
+      "pub_date": "2026-01-12T18:34:02",
+      "pub_raw": "Mon, 12 Jan 2026 18:34:02 +0000",
+      "hits": 1,
+      "pre_score": 2.106,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.939,
+      "keyword_bonus": 0.167,
+      "final_score": 4.106,
+      "analysis_failed": false,
+      "reasoning": "This is a system/security tool (Yolobox) for safely running AI agents with elevated privileges, not a core algorithmic breakthrough in optimization, complexity, or theoretical guarantees.",
+      "evidence": [
+        "Show HN: Yolobox – Run AI coding agents with full sudo without nuking home dir"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Postal Arbitrage",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46591708\">Comments</a>",
+      "link": "https://walzr.com/postal-arbitrage",
+      "pub_date": "2026-01-12T17:41:50",
+      "pub_raw": "Mon, 12 Jan 2026 17:41:50 +0000",
+      "hits": 1,
+      "pre_score": 2.103,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.936,
+      "keyword_bonus": 0.167,
+      "final_score": 4.103,
+      "analysis_failed": false,
+      "reasoning": "The article discusses postal arbitrage, which is a business/logistics optimization problem, not a fundamental algorithmic breakthrough changing complexity or theoretical guarantees in a general sense.",
+      "evidence": [
+        "No concrete evidence in summary"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Show HN: AI in SolidWorks",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46591100\">Comments</a>",
+      "link": "https://www.trylad.com",
+      "pub_date": "2026-01-12T16:56:17",
+      "pub_raw": "Mon, 12 Jan 2026 16:56:17 +0000",
+      "hits": 1,
+      "pre_score": 2.1,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.934,
+      "keyword_bonus": 0.167,
+      "final_score": 4.1,
+      "analysis_failed": false,
+      "reasoning": "The article describes an AI-powered tool integrated into SolidWorks for design tasks. This appears to be an application/product announcement rather than a publication detailing a novel, general-purpose algorithmic breakthrough that changes asymptotics or guarantees.",
+      "evidence": [
+        "Show HN: AI in SolidWorks"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "TimeCapsuleLLM: LLM trained only on data from 1800-1875",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46590280\">Comments</a>",
+      "link": "https://github.com/haykgrigo3/TimeCapsuleLLM",
+      "pub_date": "2026-01-12T16:04:27",
+      "pub_raw": "Mon, 12 Jan 2026 16:04:27 +0000",
+      "hits": 1,
+      "pre_score": 2.097,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.931,
+      "keyword_bonus": 0.167,
+      "final_score": 4.097,
+      "analysis_failed": false,
+      "reasoning": "This is a data curation/application project (training an LLM on a specific historical dataset), not a novel algorithmic technique that changes complexity or guarantees. It falls under low signal.",
+      "evidence": [
+        "LLM trained only on data from 1800-1875"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "LLVM: The bad parts",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46588837\">Comments</a>",
+      "link": "https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html",
+      "pub_date": "2026-01-12T14:18:13",
+      "pub_raw": "Mon, 12 Jan 2026 14:18:13 +0000",
+      "hits": 1,
+      "pre_score": 2.091,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.924,
+      "keyword_bonus": 0.167,
+      "final_score": 4.091,
+      "analysis_failed": false,
+      "reasoning": "The article title and summary suggest a critique of LLVM's internal design ('The bad parts'), focusing on engineering and architectural pain points rather than a specific, novel algorithmic breakthrough that improves complexity or guarantees.",
+      "evidence": [
+        "LLVM: The bad parts"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Show HN: Agent-of-empires: OpenCode and Claude Code session manager",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46588905\">Comments</a>",
+      "link": "https://github.com/njbrake/agent-of-empires",
+      "pub_date": "2026-01-12T14:23:07",
+      "pub_raw": "Mon, 12 Jan 2026 14:23:07 +0000",
+      "hits": 1,
+      "pre_score": 2.091,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.925,
+      "keyword_bonus": 0.167,
+      "final_score": 4.091,
+      "analysis_failed": false,
+      "reasoning": "The article describes an open-source session manager for code agents (Agent-of-empires), which is an engineering/tooling improvement, not a fundamental algorithmic breakthrough affecting complexity or theoretical guarantees.",
+      "evidence": [
+        "OpenCode and Claude Code session manager"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Meet the new biologists treating LLMs like aliens",
+      "summary": "How large is a large language model? Think about it this way. In the center of San Francisco there’s a hill called Twin Peaks from which you can view nearly the entire city. Picture all of it—every block and intersection, every neighborhood and park, as far as you can see—covered in sheets of paper. Now&#8230;",
+      "link": "https://www.technologyreview.com/2026/01/12/1129782/ai-large-language-models-biology-alien-autopsy/",
+      "pub_date": "2026-01-12T11:00:00",
+      "pub_raw": "Mon, 12 Jan 2026 11:00:00 +0000",
+      "hits": 1,
+      "pre_score": 2.079,
+      "feed_url": "https://www.technologyreview.com/feed/",
+      "algo_score": 2,
+      "recency_bonus": 1.912,
+      "keyword_bonus": 0.167,
+      "final_score": 4.079,
+      "analysis_failed": false,
+      "reasoning": "The article summary describes an analogy (LLMs as aliens/Twin Peaks) and a general approach (treating LLMs like biological systems) rather than detailing a specific, quantifiable algorithmic breakthrough in optimization, complexity, or guarantees.",
+      "evidence": [
+        "No concrete evidence in summary"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "The struggle of resizing windows on macOS Tahoe",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46579864\">Comments</a>",
+      "link": "https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/",
+      "pub_date": "2026-01-11T20:47:55",
+      "pub_raw": "Sun, 11 Jan 2026 20:47:55 +0000",
+      "hits": 1,
+      "pre_score": 2.028,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 2,
+      "recency_bonus": 1.862,
+      "keyword_bonus": 0.167,
+      "final_score": 4.028,
+      "analysis_failed": false,
+      "reasoning": "The article discusses UI/UX performance issues (window resizing latency) on a specific OS version, which is an engineering/implementation problem, not a fundamental algorithmic breakthrough in complexity or guarantees.",
+      "evidence": [
+        "The struggle of resizing windows on macOS Tahoe"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "CES showed me why Chinese tech companies feel so optimistic",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. I decided to go to CES kind of at the last minute. Over the holiday break, contacts from China kept messaging me about their travel plans. After the umpteenth “See you in&#8230;",
+      "link": "https://www.technologyreview.com/2026/01/12/1131193/ces-showed-me-why-chinese-tech-companies-feel-so-optimistic/",
+      "pub_date": "2026-01-12T17:01:00",
+      "pub_raw": "Mon, 12 Jan 2026 17:01:00 +0000",
+      "hits": 2,
+      "pre_score": 2.267,
+      "feed_url": "https://www.technologyreview.com/feed/",
+      "algo_score": 1,
+      "recency_bonus": 1.934,
+      "keyword_bonus": 0.333,
+      "final_score": 3.267,
+      "analysis_failed": false,
+      "reasoning": "The article is a high-level report on CES and general sentiment from Chinese tech companies; it contains no specific details about algorithmic breakthroughs, complexity improvements, or theoretical guarantees.",
+      "evidence": [
+        "No concrete evidence in summary"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "UK Expands Online Safety Act to Mandate Preemptive Scanning",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46599076\">Comments</a>",
+      "link": "https://reclaimthenet.org/uk-expands-online-safety-act-to-mandate-preemptive-scanning",
+      "pub_date": "2026-01-13T10:02:47",
+      "pub_raw": "Tue, 13 Jan 2026 10:02:47 +0000",
+      "hits": 1,
+      "pre_score": 2.161,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 1,
+      "recency_bonus": 1.995,
+      "keyword_bonus": 0.167,
+      "final_score": 3.161,
+      "analysis_failed": false,
+      "reasoning": "The article discusses a policy/regulatory expansion (UK Online Safety Act mandating preemptive scanning), which is political/legal news, not an algorithmic breakthrough involving complexity, guarantees, or novel techniques.",
+      "evidence": [
+        "UK Expands Online Safety Act to Mandate Preemptive Scanning"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "The chess bot on Delta Air Lines will destroy you (2024) [video]",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46593395\">Comments</a>",
+      "link": "https://www.youtube.com/watch?v=c0mLhHDcY3I",
+      "pub_date": "2026-01-12T19:57:37",
+      "pub_raw": "Mon, 12 Jan 2026 19:57:37 +0000",
+      "hits": 1,
+      "pre_score": 2.111,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 1,
+      "recency_bonus": 1.944,
+      "keyword_bonus": 0.167,
+      "final_score": 3.111,
+      "analysis_failed": false,
+      "reasoning": "The article is about a chess bot demonstration, likely focusing on application or performance in a specific domain (chess), not a general algorithmic breakthrough that changes complexity or theoretical guarantees.",
+      "evidence": [
+        "The chess bot on Delta Air Lines will destroy you (2024) [video]"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Date is out, Temporal is in",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46589658\">Comments</a>",
+      "link": "https://piccalil.li/blog/date-is-out-and-temporal-is-in/",
+      "pub_date": "2026-01-12T15:20:36",
+      "pub_raw": "Mon, 12 Jan 2026 15:20:36 +0000",
+      "hits": 1,
+      "pre_score": 2.095,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 1,
+      "recency_bonus": 1.928,
+      "keyword_bonus": 0.167,
+      "final_score": 3.095,
+      "analysis_failed": false,
+      "reasoning": "The article discusses the shift from using string-based dates to the Temporal API in JavaScript, which is a language feature/standardization update, not an algorithmic breakthrough in complexity or guarantees.",
+      "evidence": [
+        "Date is out, Temporal is in"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Apple picks Gemini to power Siri",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46589675\">Comments</a>",
+      "link": "https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html",
+      "pub_date": "2026-01-12T15:22:21",
+      "pub_raw": "Mon, 12 Jan 2026 15:22:21 +0000",
+      "hits": 1,
+      "pre_score": 2.095,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 1,
+      "recency_bonus": 1.928,
+      "keyword_bonus": 0.167,
+      "final_score": 3.095,
+      "analysis_failed": false,
+      "reasoning": "The article describes a product partnership (Apple using Gemini for Siri) which is a business/product announcement, not an algorithmic breakthrough as defined by the TIG context. No algorithmic novelty is detailed.",
+      "evidence": [
+        "Apple picks Gemini to power Siri"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Cells Use ‘Bioelectricity’ To Coordinate and Make Group Decisions",
+      "summary": "The discovery that tissues use electricity to expel unhealthy cells is part of a surge of renewed interest in the currents flowing through our bodies.            <p>The post <a href=\"https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/\" target=\"_blank\">Cells Use ‘Bioelectricity’ To Coordinate and Make Group Decisions</a> first appeared on <a href=\"https://www.quantamagazine.org\" target=\"_blank\">Quanta Magazine</a></p>",
+      "link": "https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/",
+      "pub_date": "2026-01-12T14:58:22",
+      "pub_raw": "Mon, 12 Jan 2026 14:58:22 +0000",
+      "hits": 1,
+      "pre_score": 2.093,
+      "feed_url": "https://api.quantamagazine.org/feed/",
+      "algo_score": 1,
+      "recency_bonus": 1.927,
+      "keyword_bonus": 0.167,
+      "final_score": 3.093,
+      "analysis_failed": false,
+      "reasoning": "The article discusses biological signaling via bioelectricity in cells, which is a domain discovery, not a computational or mathematical algorithmic breakthrough relevant to TIG's focus on complexity, guarantees, or optimization methods.",
+      "evidence": [
+        "Cells use electricity to coordinate and make group decisions",
+        "Tissues use electricity to expel unhealthy cells",
+        "Surge of renewed interest in the currents flowing through our bodies"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Mitigating emissions from air freight: Unlocking the potential of SAF with book and claim",
+      "summary": "Emissions from air freight have increased by 25% since 2019, according to a 2024 analysis by environmental advocacy organization Stand.Earth. The researchers found that the expansion of cargo-only fleets to transport goods during the pandemic — as air travel halted, slower freight modes faced disruption, but demand for rapid delivery soared — has led to&#8230;",
+      "link": "https://www.technologyreview.com/2026/01/12/1128939/mitigating-emissions-from-air-freight-unlocking-the-potential-of-saf-with-book-and-claim/",
+      "pub_date": "2026-01-12T14:00:00",
+      "pub_raw": "Mon, 12 Jan 2026 14:00:00 +0000",
+      "hits": 1,
+      "pre_score": 2.09,
+      "feed_url": "https://www.technologyreview.com/feed/",
+      "algo_score": 1,
+      "recency_bonus": 1.923,
+      "keyword_bonus": 0.167,
+      "final_score": 3.09,
+      "analysis_failed": false,
+      "reasoning": "The article discusses emissions mitigation in air freight using a 'book and claim' system, which is a policy/market mechanism, not an algorithmic breakthrough in computation or optimization theory.",
+      "evidence": [
+        "Emissions from air freight have increased by 25% since 2019",
+        "Expansion of cargo-only fleets",
+        "Mitigating emissions with book and claim"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Windows 8 Desktop Environment for Linux",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46588132\">Comments</a>",
+      "link": "https://github.com/er-bharat/Win8DE",
+      "pub_date": "2026-01-12T13:22:44",
+      "pub_raw": "Mon, 12 Jan 2026 13:22:44 +0000",
+      "hits": 1,
+      "pre_score": 2.088,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 1,
+      "recency_bonus": 1.921,
+      "keyword_bonus": 0.167,
+      "final_score": 3.088,
+      "analysis_failed": false,
+      "reasoning": "The article describes a user interface theme (Windows 8 Desktop Environment for Linux) which is an application/engineering effort, not a fundamental algorithmic breakthrough changing complexity or guarantees.",
+      "evidence": [
+        "Windows 8 Desktop Environment for Linux"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "The Download: introducing this year’s 10 Breakthrough Technologies",
+      "summary": "This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing this year’s 10 Breakthrough Technologies  It’s easy to be cynical about technology these days. Many of the “disruptions” of the last 15 years were more about coddling a certain set of young,&#8230;",
+      "link": "https://www.technologyreview.com/2026/01/12/1131176/the-download-introducing-this-years-10-breakthrough-technologies/",
+      "pub_date": "2026-01-12T13:10:00",
+      "pub_raw": "Mon, 12 Jan 2026 13:10:00 +0000",
+      "hits": 1,
+      "pre_score": 2.087,
+      "feed_url": "https://www.technologyreview.com/feed/",
+      "algo_score": 1,
+      "recency_bonus": 1.92,
+      "keyword_bonus": 0.167,
+      "final_score": 3.087,
+      "analysis_failed": false,
+      "reasoning": "The article summary only announces a list of '10 Breakthrough Technologies' without providing any specific algorithmic details, novelty, or evidence required for a TIG post.",
+      "evidence": [
+        "Introducing this year’s 10 Breakthrough Technologies"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Anthropic made a mistake in cutting off third-party clients",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46586766\">Comments</a>",
+      "link": "https://archaeologist.dev/artifacts/anthropic",
+      "pub_date": "2026-01-12T10:57:29",
+      "pub_raw": "Mon, 12 Jan 2026 10:57:29 +0000",
+      "hits": 1,
+      "pre_score": 2.079,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 1,
+      "recency_bonus": 1.912,
+      "keyword_bonus": 0.167,
+      "final_score": 3.079,
+      "analysis_failed": false,
+      "reasoning": "The article discusses a business/policy decision by Anthropic regarding third-party API access, which is explicitly low-signal content according to the TIG rubric. There is no mention of a new algorithm, complexity improvement, or theoretical guarantee.",
+      "evidence": [
+        "Anthropic made a mistake in cutting off third-party clients"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Show HN: An iOS budget app I've been maintaining since 2011",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46599341\">Comments</a>",
+      "link": "https://primoco.me/en/",
+      "pub_date": "2026-01-13T10:44:39",
+      "pub_raw": "Tue, 13 Jan 2026 10:44:39 +0000",
+      "hits": 1,
+      "pre_score": 2.164,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 0,
+      "recency_bonus": 1.997,
+      "keyword_bonus": 0.167,
+      "final_score": 2.164,
+      "analysis_failed": false,
+      "reasoning": "The article describes a personal iOS budget application maintained since 2011. This is a product/application story, not an algorithmic breakthrough involving new theory, complexity reduction, or improved guarantees.",
+      "evidence": [
+        "Show HN: An iOS budget app I've been maintaining since 2011"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "U.S. Emissions Jumped in 2025 as Coal Power Rebounded",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46599079\">Comments</a>",
+      "link": "https://www.nytimes.com/2026/01/13/climate/us-emissions-2025-coal-power.html",
+      "pub_date": "2026-01-13T10:03:20",
+      "pub_raw": "Tue, 13 Jan 2026 10:03:20 +0000",
+      "hits": 1,
+      "pre_score": 2.161,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 0,
+      "recency_bonus": 1.995,
+      "keyword_bonus": 0.167,
+      "final_score": 2.161,
+      "analysis_failed": false,
+      "reasoning": "The article discusses US emissions data and energy policy (coal power rebound), which is economic/policy news, not an algorithmic breakthrough. It contains no technical details about new algorithms, complexity improvements, or theoretical guarantees.",
+      "evidence": [
+        "U.S. Emissions Jumped in 2025",
+        "Coal Power Rebounded"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "F2 (YC S25) Is Hiring",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46595130\">Comments</a>",
+      "link": "https://www.ycombinator.com/companies/f2/jobs/cJsc7Fe-product-designer",
+      "pub_date": "2026-01-12T22:30:33",
+      "pub_raw": "Mon, 12 Jan 2026 22:30:33 +0000",
+      "hits": 1,
+      "pre_score": 2.12,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 0,
+      "recency_bonus": 1.954,
+      "keyword_bonus": 0.167,
+      "final_score": 2.12,
+      "analysis_failed": false,
+      "reasoning": "The article is a job posting for a Product Designer at F2 and contains no technical details about algorithmic breakthroughs, complexity, or guarantees.",
+      "evidence": [
+        "No concrete evidence in summary"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Floppy disks turn out to be the greatest TV remote for kids",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46587934\">Comments</a>",
+      "link": "https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/",
+      "pub_date": "2026-01-12T13:07:49",
+      "pub_raw": "Mon, 12 Jan 2026 13:07:49 +0000",
+      "hits": 1,
+      "pre_score": 2.087,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 0,
+      "recency_bonus": 1.92,
+      "keyword_bonus": 0.167,
+      "final_score": 2.087,
+      "analysis_failed": false,
+      "reasoning": "The article is about using floppy disks as a physical remote control for children, which is an application/hardware hack, not an algorithmic breakthrough in optimization or complexity theory.",
+      "evidence": [
+        "No concrete evidence in summary"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Why some “breakthrough” technologies don’t work out",
+      "summary": "Every year, MIT Technology Review publishes a list of 10 Breakthrough Technologies. In fact, the 2026 version is out today. This marks the 25th year the newsroom has compiled this annual list, which means its journalists and editors have now identified 250 technologies as breakthroughs.&#160; A few years ago, editor at large David Rotman revisited&#8230;",
+      "link": "https://www.technologyreview.com/2026/01/12/1130726/opinion-breakthrough-technology-failures-flops/",
+      "pub_date": "2026-01-12T11:15:00",
+      "pub_raw": "Mon, 12 Jan 2026 11:15:00 +0000",
+      "hits": 1,
+      "pre_score": 2.08,
+      "feed_url": "https://www.technologyreview.com/feed/",
+      "algo_score": 0,
+      "recency_bonus": 1.913,
+      "keyword_bonus": 0.167,
+      "final_score": 2.08,
+      "analysis_failed": false,
+      "reasoning": "The article is a meta-commentary on past lists of 'breakthrough technologies' and their subsequent failures, not an announcement or description of a new algorithmic breakthrough.",
+      "evidence": [
+        "Every year, MIT Technology Review publishes a list of 10 Breakthrough Technologies.",
+        "This marks the 25th year the newsroom has compiled this annual list.",
+        "Journalists and editors have now identified 250 technologies as breakthroughs."
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    },
+    {
+      "title": "Unauthenticated remote code execution in OpenCode",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=46581095\">Comments</a>",
+      "link": "https://cy.md/opencode-rce/",
+      "pub_date": "2026-01-11T22:33:32",
+      "pub_raw": "Sun, 11 Jan 2026 22:33:32 +0000",
+      "hits": 1,
+      "pre_score": 2.035,
+      "feed_url": "https://news.ycombinator.com/rss",
+      "algo_score": 0,
+      "recency_bonus": 1.868,
+      "keyword_bonus": 0.167,
+      "final_score": 2.035,
+      "analysis_failed": false,
+      "reasoning": "The article describes a security vulnerability (Unauthenticated Remote Code Execution) in a specific software, which is a system security issue, not an algorithmic breakthrough in optimization, complexity, or theoretical guarantees.",
+      "evidence": [
+        "Unauthenticated remote code execution in OpenCode"
+      ],
+      "headline": "",
+      "bullets": [
+        "",
+        "",
+        ""
+      ],
+      "tig_link": "",
+      "tweet_thread": []
+    }
+  ]
+}

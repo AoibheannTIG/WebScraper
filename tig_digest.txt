@@ -1,0 +1,15 @@
+TIG Digest — 2026-01-13T11:30:28
+Analyzed: 30 | High-signal: 1
+
+1. Fabrice Bellard's TS Zip (2024) (2026-01-12)
+   final=10.113/13 algo=8/10 hits=1
+   Headline: TS Zip algorithm offers Zstd-level compression with 4x faster decompression speed.
+   - The TS Zip technique uses a specialized LZ77 variant with adaptive dictionary management to improve the time complexity of decompression.
+   - The previous constraint was the inherent trade-off between high compression ratio and fast decoding speed in general-purpose compressors.
+   - This allows for faster deployment and real-time processing of compressed data where both size and latency matter.
+   TIG: This demonstrates how algorithmic innovation in data structures (compression) directly impacts system efficiency, offering gains that hardware alone cannot match. TIG incentivizes the open benchmarking of such trade-off optimizations against established standards.
+   Tweets:
+     • Fabrice Bellard's TS Zip shows a significant algorithmic win in data compression, matching Zstd ratios but achieving up to 4x faster decompression.
+     • This improvement stems from a novel LZ77 variant focusing on efficient dictionary lookups, breaking the traditional compression/speed barrier.
+     • In TIG, algorithms like TS Zip would be rewarded when benchmarkers confirm its superior performance profile across standardized tests.
+   Link: https://www.bellard.org/ts_zip/
